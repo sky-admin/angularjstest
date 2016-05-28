@@ -8,7 +8,8 @@
  * Controller of the angularjsApp
  */
 angular.module('angularjsApp')
-  .controller('MainCtrl', function () {
+  .controller('MainCtrl', function ($scope) {
+    $scope.name = "skyadmin";
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
